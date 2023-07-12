@@ -1,0 +1,187 @@
+/***
+  CSS desktop renault
+***/
+
+body{
+  margin: 0;
+  background-color: #111;
+}
+
+/* DEBUT DU HEADER [Contient le logo et le menu de navigation] */
+header{
+  background-color: #000;
+  width: 100%;
+  height: 150px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+header img{
+  margin-left: 60px;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 60px;
+  list-style: none;
+}
+header nav ul li a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1rem;
+}
+header nav a:hover {
+  color:whitesmoke;
+  border-bottom: rgb(187, 167, 167) solid 1px;
+}
+/* FIN DU HEADER */ 
+
+
+
+/* CONTENEUR [Qui englobe la section qui contient les deux voiture et le footer] */
+#conteneur{
+  background-color: #111;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+/* DEBUT SECTION VOITURE [Contient les deux voitures + texte ] */
+#conteneur section{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+section .voiture{
+  width: 100%;
+  
+}
+section .voiture h1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+section .voiture h2{
+  color: orangered;
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 60px;
+}
+section .voiture h3{
+  color: orangered;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .voiture h4{
+  width: 350px;
+  color: #7d7d7d;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .voiture .prix{
+  border: solid 2px #000;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  width: 120px;
+  height: 60px;
+  margin-right: 10%;
+}
+.prix img{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.flex-prix{
+  display: flex;
+  justify-content:space-between ;
+  margin-bottom: 30px;
+}
+
+section .voiture .prix span{
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 60px;
+} 
+/* FIN SECTION VOITURE */
+
+
+
+
+
+/* DEBUT DU FOOTER [Contient les informations complémentaire + les liens vers les réseaux sociaux] */
+footer{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+}
+#infos{
+  display: flex;
+}
+#infos p{
+  min-width: 350px;
+  background-color: #fff;
+  height: 42px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #D46026;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+#infos p img{
+  width: 32px;
+  height: 32px;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+#liens_sociaux{
+  width: 350px;
+}
+#liens_sociaux h3{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+#liens_sociaux img{
+  width: 40px;
+  height: 40px;
+  padding-right: 25px;
+}
+/* FIN DU FOOTER */
+
+
+/* Copyright */
+#copyright{
+  text-align: center;
+  color: #D46026;
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+
